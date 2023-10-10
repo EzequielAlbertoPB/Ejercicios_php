@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+    </head>
+
+<body>
+    <form class="col s12" action="login.php" method="post">
+
+        <div class="row">
+          <div class="input-field col s6">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="icon_prefix" name="txtnombre" type="text" class="validate" required>
+            <label for="icon_prefix">Nombre</label>
+          </div>
+        </div>
+    
+        <div class="row">
+            <div class="input-field col s6">
+                <i class="material-icons prefix">mode_edit</i>
+                <input id="icon_telephone" name="txtpassword" type="text" class="validate">
+                <label for="icon_telephone">Contraseña</label>
+            </div>
+        </div>
+    
+        <button>Enviar Datos</button> 
+        <br><br><p>NOTA: Los datos correctos son: "Ezequiel" y "1234"</p>
+      </form>
+</body>
+</html>
